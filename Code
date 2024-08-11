@@ -1,0 +1,66 @@
+<style>
+ .head
+    {
+    text-align:center;
+    text-decoration:underline;
+    }
+    .img
+    {
+        object-fit:contain;
+        width: 100px;
+        height: 100px;
+      
+    }
+    .img2
+    {
+        display:inline-block;
+        vertical-align:top;
+    }
+    .des
+    {
+       display: inline-block;
+       width:500px;
+    }
+    button{
+       padding-left: 12px;
+       padding-right:12px;
+       margin:0px;
+       background-color: rgb(234, 137, 137);
+       border-radius:5px;
+    }
+    button:active
+    {
+        background-color:beige;
+        
+    }
+
+</style>
+
+<HTML>
+
+        <h1 CLASS="head">WELCOME TO THE WEB PAGE</h1>
+    <div>
+    <div class=img2>
+        <img class=img src="./pic/aipic.webp">
+    </div>
+        <div class="des">
+        <div>
+            <head class="name">
+                <title>Vijayalakshmi</title>
+            </head>
+        </div>
+        <div>
+            <body>
+                
+                <h3>Vijayalakshmi S </h3>
+                <h5>Fourth year btech student at COLLEGE OF ENGINEERING KALLOOPPARA</h5>
+                <p>I am an Enthusiastic student to learn software development skill.<br>
+                    This is my first project which is a simple personal webpage by using only html and CSS. </p>
+        </div>
+        <div>
+                    <h3>CGPA/Percentage</h3>
+                    <button class="cgpa">8.5</button>
+                    <Input type="box" placeholder="Convert">
+        </div>
+  </div>
+</body>
